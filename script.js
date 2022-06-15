@@ -60,18 +60,6 @@ function tweetQuote() {
 //On Load
 getQuotes();
 
-
 newQuoteBtn.addEventListener('click', newQuote)
 twitterBtn.addEventListener('click', tweetQuote)
 
-
-
-
-
-// fetch("https://type.fit/api/quotes")
-//     .then(function(response) {
-//     return response.json();
-// })
-//   .then(function(data) {
-//     console.log(data);
-// }); 
